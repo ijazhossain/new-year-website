@@ -144,3 +144,33 @@ body {
     line-height: 29px;
     color: #737272;
 }
+
+/* contact section */
+.contact-container {
+    width: 75%;
+    border-radius: 8px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    margin: 124px auto;
+    color: white;
+    padding: 59px 0 59px 64px;
+}
+
+.contact-title {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.call-now-btn {
+    height: 70px;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: none;
+}
