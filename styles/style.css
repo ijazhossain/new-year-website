@@ -28,6 +28,13 @@ body {
     font-size: 65px;
 }
 
+.author {
+    display: inline-block;
+    margin-top: 20px;
+    color: green;
+    font-weight: 500;
+}
+
 .banner-description {
     color: #444343;
     line-height: 26px;
@@ -167,7 +174,7 @@ body {
 
 .call-now-btn {
     height: 70px;
-    padding: 20px 36px;
+    padding: 0px 36px;
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
@@ -202,9 +209,69 @@ body {
     background-color: #0f153c;
     width: 30%;
     padding: 20px;
+    padding-left: 30px;
     border-radius: 10px;
 }
 
 .manage-item:hover {
     background-color: #F15B22;
+}
+
+/* footer section   */
+.footer {
+    width: 100%;
+    background-color: #151414;
+    color: white;
+    margin-top: 130px;
+    padding: 130px 0;
+}
+
+.footer-section {
+    width: 75%;
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-title {
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: #F8F8F8;
+}
+
+.footer-description {
+    line-height: 26px;
+}
+
+.footer-right {
+    width: 40%;
+}
+
+.footer-left img {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.footer-right-title {
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.footer-right input[type='email'] {
+    display: block;
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #F3F3F3;
+    font-size: 18px;
+
 }
