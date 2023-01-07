@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #F3F3F3;
+    ;
 }
 
 /* header section */
@@ -102,5 +104,43 @@ body {
 .check-icon {
     color: #16D887;
     margin-right: 10px;
+}
 
+/* plan section */
+.plans-container {
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+
+.plan-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.plan-items-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.plan-item {
+    width: 25%;
+}
+
+.plan-item-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin: 16px 0;
+}
+
+.plan-item-description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #737272;
 }
