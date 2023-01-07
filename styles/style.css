@@ -55,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 .img-container {
@@ -112,9 +112,8 @@ body {
     margin-top: 130px;
 }
 
-
-
-.plan-section-title {
+.plan-section-title,
+.manage-title {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 80px;
@@ -131,16 +130,18 @@ body {
     width: 25%;
 }
 
-.plan-item-title {
+.plan-item-title,
+.manage-item-title {
     font-weight: 700;
     font-size: 25px;
     color: #151414;
     margin: 16px 0;
 }
 
-.plan-item-description {
+.plan-item-description,
+.manage-item-description {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 29px;
     color: #737272;
 }
@@ -153,9 +154,9 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 300px;
-    margin: 124px auto;
+    margin: 124px auto 80px;
     color: white;
-    padding: 59px 0 59px 64px;
+    padding: 59px 0 0 64px;
 }
 
 .contact-title {
@@ -173,4 +174,37 @@ body {
     border-radius: 5px;
     background: #FFFFFF;
     border: none;
+}
+
+/* manage section  */
+.manage-container {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.manage-items-container {
+    display: flex;
+    gap: 30px;
+}
+
+.manage-item-title,
+.manage-item-description {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.manage-title {
+    text-align: center;
+}
+
+.manage-item {
+    background-color: #0f153c;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.manage-item:hover {
+    background-color: #F15B22;
 }
