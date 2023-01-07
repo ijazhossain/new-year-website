@@ -70,7 +70,7 @@ body {
 }
 
 .img-inner-container {
-    background-image: url('/images/shape-bg.png');
+    background-image: url('../images/shape-bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
